@@ -1,0 +1,14 @@
+from datetime import datetime
+
+current = datetime.now()
+
+print("----- Attendance Date Tracker -----")
+
+print("Current Date and Time:", current)
+
+print("Day:", current.day)
+print("Month:", current.month)
+print("Year:", current.year)
+
+print("Date:", current.date())
+print("Time:", current.time())

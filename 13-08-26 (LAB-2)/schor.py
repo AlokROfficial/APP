@@ -1,0 +1,5 @@
+marks = dict(zip(input("Enter names separately: ").split(),map(int, input("Enter marks separately: ").split())))
+print(marks)
+update=list(filter(lambda x: x[1]>80,marks.items()))
+print("original marks",marks)
+print("scholarship",list(map(lambda x: x[0],update)))
